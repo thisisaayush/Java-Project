@@ -1,1 +1,3 @@
-
+In this project, we have used the concept of dynamic array- arraylist- and had used it to create a grocery list which has features like 
+addItems, printGroceryItems, modifyGroceryItems, removeGroceryItems, and searchItems in a grocerry list. It gives the idea of how general 
+online line shopping applications works internally.
