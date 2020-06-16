@@ -1,1 +1,2 @@
-
+This project is about the Java polymorphism concept. It gives us the idea how same action can be performed in different ways in different 
+classes(note: classes must have inheritance relation). 
