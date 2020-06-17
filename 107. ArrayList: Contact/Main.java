@@ -1,5 +1,5 @@
 /*
-This properties of the project is it can print contacts, add new contact, update contact, remove contact,
+This project can print contacts, add new contact, update contact, remove contact,
 query contact.
 It demonstrates how mobile phone contact application operates.
  */
