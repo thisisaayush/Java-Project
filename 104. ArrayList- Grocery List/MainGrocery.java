@@ -20,7 +20,7 @@ public class MainGrocery {
 
             switch (choice) {
                 case 0:
-                    printInstruction();
+                    printInstruction();//When user input 0, printInstruction is invoked. Similarly, respective method below is invoked with respective int input.
                     break;
                 case 1:
                     addItem();
