@@ -1,6 +1,7 @@
 package ContactPhoneNumber;
 
 public class Contact {
+    //name and phoneNumber here is privatized. It can't be accessed outsideof Contact class.
     private String name;
     private String phoneNumber;
 
@@ -19,7 +20,7 @@ public class Contact {
         return phoneNumber;
     }
 
-    public static Contact createContact(String name, String phoneNumber)//how is this helping to create a contact.
+    public static Contact createContact(String name, String phoneNumber)
     {
         return new Contact(name, phoneNumber);
     }
