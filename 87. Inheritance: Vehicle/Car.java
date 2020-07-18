@@ -8,16 +8,16 @@ public class Car extends Vehicle// Car class here extends the Vehicle class and 
     private int wheels;
     private int doors;
     private int gear;
-
     private int currentGear;
-
+    //Constructor of Car class.
     public Car(String name, String size, int wheels, int doors, int gear) {
         super( name, size );
         this.wheels = wheels;
         this.doors = doors;
         this.gear = gear;
     }
-
+    //changeGear method with int gear parameter.
+    //It prints out the car current gear.
     public void changeGear(int gear){
         this.currentGear = gear;
         System.out.println("Car currentGear() method is called.");
