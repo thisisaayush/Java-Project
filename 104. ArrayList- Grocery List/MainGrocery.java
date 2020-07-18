@@ -43,7 +43,7 @@ public class MainGrocery {
             }
         }
     }
-    //printInstruction() method is for user. It gives idea about how to add, print, modify, remove grocery items for
+    //printInstruction() method is for user. It gives instruction on how to add, print, modify, remove grocery items for
     //the list.
       public static void printInstruction(){
           System.out.println("\nPress ");
