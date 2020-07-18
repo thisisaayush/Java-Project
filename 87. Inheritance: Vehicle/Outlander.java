@@ -12,6 +12,7 @@ public class Outlander extends Car// Outlander class  extends Car class and inhe
     public void velocity(int rate){
         double newVelocity = getCurrentVelocities() + rate;//Sum up the previous input velocity and the current velocity
         //and returns total velocity and jumps to the condition based on the total velocity.
+        //Respective if else if else statement will be called based on the given velocity.
         if(newVelocity == 0){
             stop();
             System.out.println("Car gear is now will be shifted to 1.");
