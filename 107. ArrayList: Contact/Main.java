@@ -19,7 +19,9 @@ public class Main {
             int action = scanner.nextInt();
             scanner.nextLine();
 
-            switch (action) {
+            switch (action)
+                //Based on the int input, switch statement will call the following cases.
+            {
                 case 0:
                     System.out.println("\nShutting down...");
                     quit = true;
