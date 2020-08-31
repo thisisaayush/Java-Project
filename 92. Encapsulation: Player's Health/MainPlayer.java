@@ -15,7 +15,7 @@ public class MainPlayer {
         Player player = new Player(name, 100,weapon );//Creating player object for player class.
         int x = player.getDamage();
 
-        System.out.println("Name\t\tHealth\t\tWeapon");
+        System.out.println("Name\t\tHealth\t\tWeapon");//Prints name, health, and weapon with double tab.
         System.out.println(name+"\t\t"+100+"\t\t\t"+weapon);
 
         System.out.println("Health damaged: " + x);
