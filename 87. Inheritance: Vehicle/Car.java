@@ -9,7 +9,7 @@ public class Car extends Vehicle// Car class here extends the Vehicle class and 
     private int doors;
     private int gear;
     private int currentGear;
-    //Constructor of Car class.
+    //Constructor of Car class. It has name, size, wheels, doors, gear parameters.
     public Car(String name, String size, int wheels, int doors, int gear) {
         super( name, size );
         this.wheels = wheels;
